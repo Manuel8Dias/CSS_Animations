@@ -1,2 +1,2 @@
 # CSS_Animations
-Vário exemplos de animaçôes com CSS
+Vários exemplos de animações com CSS
