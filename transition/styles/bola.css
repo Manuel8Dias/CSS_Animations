@@ -21,10 +21,8 @@ body {
     position: absolute;
     left: 0;
     top: 0;
-    transition-property: left;
-    transition-duration: 3s;
-    transition-timing-function: linear;
-    transition-delay: 2s;
+
+    transition: left 3s linear, top 2s linear 3s;
 }
 
 .bola img {
@@ -34,4 +32,5 @@ body {
 
 .bola-container:hover .bola {
     left: 500px;
+    top: 500px;
 }
