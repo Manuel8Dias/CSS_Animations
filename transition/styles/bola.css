@@ -22,7 +22,12 @@ body {
     left: 0;
     top: 0;
 
-    transition: left 3s linear, top 2s linear 3s;
+    transition: left 3s linear,top 2s linear 3s;
+
+    /* transition-property: left;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+    transition-delay: 2s; */
 }
 
 .bola img {
