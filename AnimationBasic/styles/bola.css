@@ -27,7 +27,7 @@ body {
 } */
 
 @keyframes bola { /* @keyframes animation-name */
-    0% {
+    0%, 100% {
         left: 0;
         top: 0;
     }
@@ -39,7 +39,7 @@ body {
         left: 500px;
         top: 500px;
     }
-    75%, 100%{
+    75%{
         left: 0px;
         top: 500px;
     }
@@ -55,15 +55,17 @@ body {
     position: absolute;
     left: 0;
     top: 0;
-    animation-name: bola;
+    /* animation-name: bola;
     animation-duration: 4s;
     /* animation-iteration-count: 1; /** Número de vezes que uma animação acontece (opcional) */
-    animation-iteration-count: infinite; /** Animação não pára de se repetir (opcional) */
-    /* animation-delay: 2s; /** (opcional) */
-    animation-direction: alternate; /** normal, alternate, reverse, alternate-reverse (opcional) */
+    /* animation-iteration-count: infinite; /** Animação não pára de se repetir (opcional) */
+    /* animation-delay: 1s; /** (opcional) */
+    /* animation-direction: alternate; /** normal, alternate, reverse, alternate-reverse (opcional) */
     /* animation-fill-mode: forwards; /** forwards, backwards (opcional) */
-    animation-timing-function: ease-out; /** linear, ease, ease-out, ease-in (opcional) */
-    animation-play-state: running; /** Play / Pausa (opcional) */
+    /* animation-timing-function: ease-out; /** linear, ease, ease-out, ease-in (opcional) */
+    /* animation-play-state: running; /** Play / Pausa (opcional) */
+    
+    animation: bola 4s ease-out  1s alternate infinite;
 }
 
 .bola img {
